@@ -25,8 +25,7 @@ def token():
 
   grant = VoiceGrant(
     push_credential_sid=push_credential_sid,
-    outgoing_application_sid=app_sid,
-    incoming_application_sid=app_sid
+    outgoing_application_sid=app_sid
   )
 
   token = AccessToken(account_sid, api_key, api_key_secret, IDENTITY)
